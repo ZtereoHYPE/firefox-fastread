@@ -1,12 +1,39 @@
+body {
+  background-color: #2b2a33;
+}
+
 button {
-    outline: none;
-    border: none;
-    border-radius: 2px;
-    width: 100%;
-    padding: 10px;
-  }
-  
-  button.current {
-    box-shadow: 0 0 0 2px white,
-                0 0 0 4px black;
-  }
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: #aaaabb;
+  background-color: #1c1b22;
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  width: 300px;
+  padding: 10px;
+}
+
+button:active {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: #aaaabb;
+  background-color: #1f2130;
+}
+
+.fieldDiv {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 300px;
+  display: flex;
+  flex-direction: line;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.field {
+  color: #aaaabb;
+  background-color: #1c1b22;
+  border: 1px solid #aaaabb;
+  border-radius: 6px;
+  width: 133px;
+  padding: 5px;
+}
