@@ -8,7 +8,6 @@ browser.storage.sync.get(['highlightSheet', 'restSheet'], (data) => {
     restSheetInput.value = data.restSheet;
 });
 
-
 highlightSheetInput.addEventListener("input", async (text) => {
     onHighlightInputChange();
 });
